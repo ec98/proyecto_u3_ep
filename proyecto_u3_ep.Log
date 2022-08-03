@@ -1,0 +1,115 @@
+2022-08-02 19:39:56,337 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 3640 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-02 19:39:56,341 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-02 19:39:56,400 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-02 19:39:56,980 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-02 19:39:57,007 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces. 
+2022-08-02 19:39:57,525 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-02 19:39:57,592 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-02 19:39:57,800 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-02 19:39:57,939 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-02 19:39:58,209 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-02 19:39:58,229 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-02 19:39:59,186 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-02 19:39:59,197 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:39:59,390 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-02 19:39:59,414 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.693 seconds (JVM running for 5.348) 
+2022-08-02 19:39:59,674 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:39:59,684 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:39:59,689 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-02 19:39:59,693 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-02 19:43:04,491 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 18752 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-02 19:43:04,496 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-02 19:43:04,557 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-02 19:43:05,168 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-02 19:43:05,192 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces. 
+2022-08-02 19:43:05,678 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-02 19:43:05,756 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-02 19:43:06,001 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-02 19:43:06,128 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-02 19:43:06,413 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-02 19:43:06,441 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-02 19:43:07,442 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-02 19:43:07,452 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:43:07,653 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-02 19:43:07,677 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.642 seconds (JVM running for 5.285) 
+2022-08-02 19:43:07,977 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:43:07,987 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:43:07,990 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-02 19:43:07,995 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-02 19:45:42,246 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 11484 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-02 19:45:42,251 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-02 19:45:42,308 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-02 19:45:42,776 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-02 19:45:42,794 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces. 
+2022-08-02 19:45:43,227 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-02 19:45:43,297 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-02 19:45:43,498 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-02 19:45:43,617 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-02 19:45:43,872 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-02 19:45:43,898 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-02 19:45:44,858 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-02 19:45:44,870 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:45:45,067 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-02 19:45:45,090 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.281 seconds (JVM running for 4.742) 
+2022-08-02 19:45:45,093 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - INNER JOIN 
+2022-08-02 19:45:45,327 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:45:45,327 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - LEFT JOIN 
+2022-08-02 19:45:45,337 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:45:45,337 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - RIGHT JOIN 
+2022-08-02 19:45:45,339 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:45:45,347 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:45:45,352 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-02 19:45:45,357 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-02 19:46:18,998 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 5964 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-02 19:46:19,003 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-02 19:46:19,064 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-02 19:46:19,570 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-02 19:46:19,590 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces. 
+2022-08-02 19:46:20,052 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-02 19:46:20,116 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-02 19:46:20,322 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-02 19:46:20,442 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-02 19:46:20,683 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-02 19:46:20,706 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-02 19:46:21,655 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-02 19:46:21,666 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:46:21,867 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-02 19:46:21,914 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.36 seconds (JVM running for 4.87) 
+2022-08-02 19:46:21,916 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - INNER JOIN 
+2022-08-02 19:46:22,208 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:46:22,208 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - LEFT JOIN 
+2022-08-02 19:46:22,214 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:46:22,215 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - RIGHT JOIN 
+2022-08-02 19:46:22,220 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:46:22,231 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:46:22,234 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-02 19:46:22,237 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-02 19:59:19,836 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 20208 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-02 19:59:19,840 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-02 19:59:19,896 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-02 19:59:20,393 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-02 19:59:20,409 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces. 
+2022-08-02 19:59:20,879 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-02 19:59:20,956 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-02 19:59:21,152 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-02 19:59:21,275 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-02 19:59:21,547 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-02 19:59:21,571 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-02 19:59:22,547 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-02 19:59:22,560 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:59:22,744 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-02 19:59:22,765 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.357 seconds (JVM running for 4.834) 
+2022-08-02 19:59:22,767 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - INNER JOIN 
+2022-08-02 19:59:23,018 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:59:23,024 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel v2 -> Hilton Colon Patria 
+2022-08-02 19:59:23,024 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel v2 -> Hilton Colon Patria 
+2022-08-02 19:59:23,024 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - LEFT JOIN 
+2022-08-02 19:59:23,030 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:59:23,034 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel v2-> Hilton Colon Patria 
+2022-08-02 19:59:23,035 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel v2-> Hilton Colon Patria 
+2022-08-02 19:59:23,035 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel v2-> Hilton Colon GYE Malecon 
+2022-08-02 19:59:23,035 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - RIGHT JOIN 
+2022-08-02 19:59:23,038 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Hotel -> Hilton Colon Patria 
+2022-08-02 19:59:23,047 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-02 19:59:23,051 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-02 19:59:23,057 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
