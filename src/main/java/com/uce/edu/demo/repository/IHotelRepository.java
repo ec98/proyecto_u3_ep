@@ -21,8 +21,10 @@ public interface IHotelRepository {
 
 	public List<Hotel> buscarHotelOuterJoin(String tipoHabitacion);
 
+	// Where Join
 	public List<Hotel> buscarHotelWhereJoin(String tipoHabitacion);
 
+	// Join Fetch
 	public List<Hotel> buscarHotelFetchJoin(String tipoHabitacion);
 
 }

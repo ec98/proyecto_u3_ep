@@ -9,6 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.uce.edu.demo.repository.modelo.Habitacion;
 import com.uce.edu.demo.repository.modelo.Hotel;
 import com.uce.edu.demo.service.IHotelService;
 
@@ -28,43 +29,33 @@ public class ProyectoU3EpApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 
-		Logger.info("INNER JOIN");
-//		List<Hotel> listHotels = this.iHotelService.buscarHotelInnerJoin("Matrimonial");
-		List<Hotel> listHotels = this.iHotelService.buscarHotelInnerJoin("Familiar");
-
-		for (Hotel h : listHotels) {
+		Logger.info("RELACIONAMIENTO WHERE");
+		List<Hotel> listHoteles = this.iHotelService.buscarHotelWhereJoin("Familiar");
+		for (Hotel h : listHoteles) {
 			Logger.info("Hotel -> " + h.getNombre() + " " + h.getDireccion());
 		}
 
-		List<Hotel> listHotels2 = this.iHotelService.buscarHotelInnerJoin();
-
-		for (Hotel h : listHotels2) {
-			Logger.info("Hotel v2 -> " + h.getNombre() + " " + h.getDireccion());
+		Logger.info("INNER JOIN EAGER/LAZY");
+		List<Hotel> listHoteles2 = this.iHotelService.buscarHotelInnerJoin("Matrimonial");
+		for (Hotel h : listHoteles2) {
+			// EAGER WITH SONS
+			Logger.info("Hotel 2 -> " + h.getNombre() + " " + h.getDireccion());
+			// LAZY
+			for (Habitacion ha : h.getHabitaciones()) {
+				Logger.info("Habitaciones 2 -> " + ha);
+			}
 		}
 
-		// LEFT JOIN
-		Logger.info("LEFT JOIN");
-
-		List<Hotel> listHotelsleft = this.iHotelService.buscarHotelLeftOuterJoin("Familiar");
-
-		for (Hotel h : listHotelsleft) {
-			Logger.info("Hotel -> " + h.getNombre() + " " + h.getDireccion());
+		Logger.info("JOIN FETCH");
+		// esta configuracion es con LAZY, la mas eficiente en una sola busqueda.
+		List<Hotel> listHoteles3 = this.iHotelService.buscarHotelFetchJoin("Matrimonial");
+		for (Hotel h : listHoteles3) {
+			Logger.info("Hotel 3 -> " + h.getNombre() + " " + h.getDireccion());
+			for (Habitacion ha : h.getHabitaciones()) {
+				Logger.info("Habitaciones3 -> " + ha);
+			}
 		}
 
-		List<Hotel> listHotelsleft2 = this.iHotelService.buscarHotelLeftOuterJoin();
-
-		for (Hotel h : listHotelsleft2) {
-			Logger.info("Hotel v2-> " + h.getNombre() + " " + h.getDireccion());
-		}
-
-		// RIGHT JOIN
-		Logger.info("RIGHT JOIN");
-
-		List<Hotel> listHotelsright = this.iHotelService.buscarHotelRightOuterJoin("Familiar");
-
-		for (Hotel h : listHotelsright) {
-			Logger.info("Hotel -> " + h.getNombre() + " " + h.getDireccion());
-		}
 	}
 
 }

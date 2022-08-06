@@ -21,15 +21,25 @@ public class HotelRepositoryImpl implements IHotelRepository {
 	@Override
 	public List<Hotel> buscarHotelInnerJoin(String tipoHabitacion) {
 		// TODO Auto-generated method stub
+		// TypedQuery<Hotel> miQuery = this.entityManager.createQuery("SELECT h FROM
+		// Hotel h full JOIN h.habitaciones ha WHERE ha.tipo =: tipoHabitacion",
+		// Hotel.class);
 		TypedQuery<Hotel> miQuery = this.entityManager.createQuery(
 				"SELECT h FROM Hotel h JOIN h.habitaciones ha WHERE ha.tipo =: tipoHabitacion", Hotel.class);
 		miQuery.setParameter("tipoHabitacion", tipoHabitacion);
-		return miQuery.getResultList();
+		List<Hotel> hoteles = miQuery.getResultList();
+		//bajo demanda with lazy
+		for (Hotel h : hoteles) {
+			h.getHabitaciones().size();
+		}
+		return hoteles;
 	}
 
 	@Override
 	public List<Hotel> buscarHotelInnerJoin() {
 		// TODO Auto-generated method stub
+		// TypedQuery<Hotel> miQuery = this.entityManager.createQuery("SELECT h FROM
+		// Hotel h full JOIN h.habitaciones ha", Hotel.class);
 		TypedQuery<Hotel> miQuery = this.entityManager.createQuery("SELECT h FROM Hotel h JOIN h.habitaciones ha",
 				Hotel.class);
 		return miQuery.getResultList();
@@ -70,13 +80,23 @@ public class HotelRepositoryImpl implements IHotelRepository {
 	@Override
 	public List<Hotel> buscarHotelWhereJoin(String tipoHabitacion) {
 		// TODO Auto-generated method stub
-		return null;
+		// SELECT * FROM public.hotel ho, habitacion ha WHERE ho.hote_id =
+		// ha.habi_id_hotel AND ha.habi_tipo='Familiar'
+		TypedQuery<Hotel> miQuery = this.entityManager.createQuery(
+				"SELECT h FROM Hotel h, Habitacion ha WHERE h.id = ha.hotel AND ha.tipo =: tipoHabitacion",
+				Hotel.class); // espera un retorno de hotel.
+		miQuery.setParameter("tipoHabitacion", tipoHabitacion);
+		return miQuery.getResultList();
 	}
 
 	@Override
 	public List<Hotel> buscarHotelFetchJoin(String tipoHabitacion) {
 		// TODO Auto-generated method stub
-		return null;
+		TypedQuery<Hotel> miQuery = this.entityManager.createQuery(
+				"SELECT h FROM Hotel h JOIN FETCH h.habitaciones ha WHERE ha.tipo =: tipoHabitacion", Hotel.class);
+		//realiza una seleccion de toda la busqueda de la tabla principal con sus hijos secundarios.
+		miQuery.setParameter("tipoHabitacion", tipoHabitacion);
+		return miQuery.getResultList();
 	}
 
 }

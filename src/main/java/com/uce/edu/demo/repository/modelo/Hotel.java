@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -29,12 +30,17 @@ public class Hotel {
 	private String direccion;
 
 	//TABLA PRINCIPAL
-	@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL) // mapea el "nombre" a la tabla secundaria
-	private List<Habitacion> habitaciones; //cuando tengo varios
+	//EAGER es una carga por defecto pero tiene un rendimiento alto para la aplicacion spring boot.
+	//esta herramienta va traer los parametros solo si traigo elementos de la otra tabla.
+	//@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	
+	//LAZY es una carga perezosa pero es eficiente
+	@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	private List<Habitacion> habitaciones; 
 
 	@Override
 	public String toString() {
-		return "Hotel [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + "]";
+		return "Hotel [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + "]"; //no tomar en cuenta las habitaciones porque es una iteracion infinita al usar EAGER.
 	}
 
 	// GETTERS AND SETTERS
