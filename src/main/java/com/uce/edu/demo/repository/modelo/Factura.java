@@ -42,7 +42,7 @@ public class Factura {
 	@Override
 	public String toString() {
 		return "Factura [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", cedula=" + cedula + ", fecha="
-				+ fecha + ", detalles=" + detalles + "]";
+				+ fecha;
 	}
 
 	// GET Y SET
