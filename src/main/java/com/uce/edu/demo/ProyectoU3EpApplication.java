@@ -1,8 +1,5 @@
 package com.uce.edu.demo;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -32,51 +29,35 @@ public class ProyectoU3EpApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 
-		Factura factura = new Factura();
-		factura.setNombre("Edwin");
-		factura.setApellido("Jaramillo");
-		factura.setCedula("12928282811");
-		factura.setFecha(LocalDateTime.now());
-
-		Detalle detalle = new Detalle();
-		detalle.setCosto(new BigDecimal("100"));
-		detalle.setDescripcion("Comida rapida");
-
-		Detalle detalle1 = new Detalle();
-		detalle1.setCosto(new BigDecimal("492"));
-		detalle1.setDescripcion("Comida elegante");
-
-		List<Detalle> listDetalles = new ArrayList<>();
-		listDetalles.add(detalle);
-		listDetalles.add(detalle1);
-
-		factura.setDetalles(listDetalles);
-		detalle.setFactura(factura);
-		detalle1.setFactura(factura);
-		
-//		this.iFacturaService.insertar(factura);
-
-		// 1
-		Logger.info("INNER JOIN");
-		List<Factura> listfacturaCInner = this.iFacturaService.buscarDescripcionInnerJoin(detalle.getDescripcion());
-
-		for (Factura h : listfacturaCInner) {
-			Logger.info("Descripcion -> " + h.getApellido()+" "+h.getCedula());
+		// Exercise aditional
+		Logger.info("INNER JOIN EAGER/LAZY");
+		List<Factura> listHoteles2 = this.iFacturaService.buscarDescripcionInnerJoinWithLazyEager("Comida elegante");
+		for (Factura f : listHoteles2) {
+			// EAGER WITH SONS
+			Logger.info("Descripcion v2 -> " + f.getCedula() + " " + f.getApellido());
+			// LAZY
+			for (Detalle de : f.getDetalles()) {
+				Logger.info("Detalles v2 -> " + de);
+			}
 		}
 
-		// 2
-		Logger.info("LEFT JOIN");
-		List<Factura> facturaCLeft = this.iFacturaService.buscarDescripcionLeftOuterJoin(detalle1.getDescripcion());
-		for (Factura h : facturaCLeft) {
-			Logger.info("Descripcion -> " + h.getApellido()+" "+h.getCedula());
+		Logger.info("WHERE JOIN");
+		List<Factura> listFactura = this.iFacturaService.buscarDescripcionWhereJoin("Comida rapida");
+		for (Factura f : listFactura) {
+			Logger.info("Descripcion -> " + f.getCedula() + " " + f.getApellido());
 		}
 
-		// 3
-		Logger.info("RIGHT JOIN");
-		List<Factura> facturaCRight = this.iFacturaService.buscarDescripcionRightOuterJoin(detalle.getDescripcion());
-		for (Factura h : facturaCRight) {
-			Logger.info("Descripcion -> " + h.getApellido()+" "+h.getCedula());
+		Logger.info("FECTH JOIN");
+		// Usare la funcion LAZY para tener una busqueda mas eficiente que la funcion
+		// EAGER
+		List<Factura> listFactura2 = this.iFacturaService.buscarDescripcionJoinFetch("Comida elegante");
+		for (Factura f : listFactura2) {
+			Logger.info("Descripcion -> " + f.getCedula() + " " + f.getApellido());
+			for (Detalle de : f.getDetalles()) {
+				Logger.info("Detalles 2 -> " + de);
+			}
 		}
+
 	}
 
 }

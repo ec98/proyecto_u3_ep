@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -36,8 +37,11 @@ public class Factura {
 	private LocalDateTime fecha;
 
 	// MAIN TABLE
-	@OneToMany(mappedBy = "factura", cascade = CascadeType.ALL)
+//	@OneToMany(mappedBy = "factura", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "factura", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private List<Detalle> detalles;
+
+	
 
 	@Override
 	public String toString() {

@@ -11,9 +11,19 @@ public interface IFacturaService {
 	// Inner Join
 	public List<Factura> buscarDescripcionInnerJoin(String descripcionDetalle);
 
-	// Left Join
-		public List<Factura> buscarDescripcionLeftOuterJoin(String descripcionDetalle);
+	// Inner Join with Lazy/Eager
+	public List<Factura> buscarDescripcionInnerJoinWithLazyEager(String descripcionDetalle);
 
-		// Right Join
-		public List<Factura> buscarDescripcionRightOuterJoin(String descripcionDetalle);
+	// Left Join
+	public List<Factura> buscarDescripcionLeftOuterJoin(String descripcionDetalle);
+
+	// Right Join
+	public List<Factura> buscarDescripcionRightOuterJoin(String descripcionDetalle);
+
+	// Where Join
+	public List<Factura> buscarDescripcionWhereJoin(String descripcionDetalle);
+
+	// Fecth Join
+	public List<Factura> buscarDescripcionJoinFetch(String descripcionDetalle);
+
 }

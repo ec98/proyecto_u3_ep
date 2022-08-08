@@ -6,10 +6,13 @@ import com.uce.edu.demo.repository.modelo.Factura;
 
 public interface IFacturaRepository {
 
-	public void insertar (Factura factura);
-	
+	public void insertar(Factura factura);
+
 	// Inner Join
 	public List<Factura> buscarDescripcionInnerJoin(String descripcionDetalle);
+	
+	// Inner Join with Lazy/Eager
+	public List<Factura> buscarDescripcionInnerJoinWithLazyEager(String descripcionDetalle);
 
 	// Left Join
 	public List<Factura> buscarDescripcionLeftOuterJoin(String descripcionDetalle);
@@ -17,5 +20,10 @@ public interface IFacturaRepository {
 	// Right Join
 	public List<Factura> buscarDescripcionRightOuterJoin(String descripcionDetalle);
 
+	// Where Join
+	public List<Factura> buscarDescripcionWhereJoin(String descripcionDetalle);
+
+	// Fecth Join
+	public List<Factura> buscarDescripcionJoinFetch(String descripcionDetalle);
 
 }

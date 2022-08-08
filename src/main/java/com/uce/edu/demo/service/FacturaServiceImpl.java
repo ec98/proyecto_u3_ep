@@ -27,6 +27,12 @@ public class FacturaServiceImpl implements IFacturaService {
 	}
 
 	@Override
+	public List<Factura> buscarDescripcionInnerJoinWithLazyEager(String descripcionDetalle) {
+		// TODO Auto-generated method stub
+		return this.iFacturaRepository.buscarDescripcionInnerJoinWithLazyEager(descripcionDetalle);
+	}
+
+	@Override
 	public List<Factura> buscarDescripcionLeftOuterJoin(String descripcionDetalle) {
 		// TODO Auto-generated method stub
 		return this.iFacturaRepository.buscarDescripcionLeftOuterJoin(descripcionDetalle);
@@ -36,6 +42,18 @@ public class FacturaServiceImpl implements IFacturaService {
 	public List<Factura> buscarDescripcionRightOuterJoin(String descripcionDetalle) {
 		// TODO Auto-generated method stub
 		return this.iFacturaRepository.buscarDescripcionRightOuterJoin(descripcionDetalle);
+	}
+
+	@Override
+	public List<Factura> buscarDescripcionWhereJoin(String descripcionDetalle) {
+		// TODO Auto-generated method stub
+		return this.iFacturaRepository.buscarDescripcionWhereJoin(descripcionDetalle);
+	}
+
+	@Override
+	public List<Factura> buscarDescripcionJoinFetch(String descripcionDetalle) {
+		// TODO Auto-generated method stub
+		return this.iFacturaRepository.buscarDescripcionJoinFetch(descripcionDetalle);
 	}
 
 }
