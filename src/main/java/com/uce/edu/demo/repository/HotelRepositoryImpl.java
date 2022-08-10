@@ -6,14 +6,20 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
+import javax.transaction.Transactional.TxType;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 import com.uce.edu.demo.repository.modelo.Hotel;
 
 @Repository
 @Transactional
 public class HotelRepositoryImpl implements IHotelRepository {
+
+	private static final Logger Logger = LoggerFactory.getLogger(HotelRepositoryImpl.class);
 
 	@PersistenceContext
 	private EntityManager entityManager;
@@ -55,6 +61,7 @@ public class HotelRepositoryImpl implements IHotelRepository {
 	}
 
 	@Override
+	//REQUIRED
 	public List<Hotel> buscarHotelLeftOuterJoin() {
 		// TODO Auto-generated method stub
 		TypedQuery<Hotel> miQuery = this.entityManager.createQuery("SELECT h FROM Hotel h LEFT JOIN h.habitaciones ha",
@@ -90,8 +97,11 @@ public class HotelRepositoryImpl implements IHotelRepository {
 	}
 
 	@Override
+	//todos los demas son REQUIRED
+//	@Transactional(value = TxType.MANDATORY)
 	public List<Hotel> buscarHotelFetchJoin(String tipoHabitacion) {
 		// TODO Auto-generated method stub
+		Logger.info("Transaccion activa repository -> "+TransactionSynchronizationManager.isActualTransactionActive());
 		TypedQuery<Hotel> miQuery = this.entityManager.createQuery(
 				"SELECT h FROM Hotel h JOIN FETCH h.habitaciones ha WHERE ha.tipo =: tipoHabitacion", Hotel.class);
 		//realiza una seleccion de toda la busqueda de la tabla principal con sus hijos secundarios.
