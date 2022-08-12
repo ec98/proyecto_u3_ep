@@ -29,18 +29,25 @@ public class Hotel {
 	@Column(name = "hote_direccion")
 	private String direccion;
 
-	//TABLA PRINCIPAL
-	//EAGER es una carga por defecto pero tiene un rendimiento alto para la aplicacion spring boot.
-	//esta herramienta va traer los parametros solo si traigo elementos de la otra tabla.
-	//@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	
-	//LAZY es una carga perezosa pero es eficiente
+	// TABLA PRINCIPAL
+	// EAGER es una carga por defecto pero tiene un rendimiento alto para la
+	// aplicacion spring boot.
+	// esta herramienta va traer los parametros solo si traigo elementos de la otra
+	// tabla.
+	// @OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch =
+	// FetchType.EAGER)
+
+	// LAZY es una carga perezosa pero es eficiente
 	@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	private List<Habitacion> habitaciones; 
+	private List<Habitacion> habitaciones;
+
 
 	@Override
 	public String toString() {
-		return "Hotel [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + "]"; //no tomar en cuenta las habitaciones porque es una iteracion infinita al usar EAGER.
+		return "Hotel [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + "]"; // no tomar en cuenta las
+																							// habitaciones porque es
+																							// una iteracion infinita al
+																							// usar EAGER.
 	}
 
 	// GETTERS AND SETTERS

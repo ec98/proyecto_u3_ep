@@ -5,6 +5,15 @@ import java.util.List;
 import com.uce.edu.demo.repository.modelo.Hotel;
 
 public interface IHotelRepository {
+	
+	public void insertar(Hotel hotel);
+	
+	public Hotel buscarHotel(Integer id);
+	
+	public int actualizarHotel(String nombre, String direccion);
+	
+	
+	public int eliminarHotel(String direccion);
 
 	// Inner Join
 	public List<Hotel> buscarHotelInnerJoin(String tipoHabitacion);
