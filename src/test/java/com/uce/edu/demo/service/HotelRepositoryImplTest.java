@@ -1,4 +1,4 @@
-package com.uce.edu.demo;
+package com.uce.edu.demo.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -13,7 +13,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 
 import com.uce.edu.demo.repository.modelo.Hotel;
-import com.uce.edu.demo.service.IHotelService;
 
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
@@ -39,14 +38,14 @@ public class HotelRepositoryImplTest {
 	@Rollback(true)
 	public void actualizarHotelTest() {
 
-		assertThat(this.iHotelService.actualizarHotel("Hotel Latacunga", "Cuenca"));
+		assertThat(this.iHotelService.actualizarHotel("Hotel Zolanda", "Lamba") > 0).isTrue();
 	}
 
 	@Test
 	@Rollback(true)
 	public void eliminarHotelTest() {
 
-		assertThat(this.iHotelService.eliminarHotel("Quito"));
+		assertThat(this.iHotelService.eliminarHotel("Lamba") > 0).isTrue();
 	}
 
 	@Test

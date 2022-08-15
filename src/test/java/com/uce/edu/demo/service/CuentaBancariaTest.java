@@ -1,4 +1,4 @@
-package com.uce.edu.demo;
+package com.uce.edu.demo.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -15,11 +15,9 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 
-import com.uce.edu.demo.repository.ICuentaBancariaRepository;
 import com.uce.edu.demo.repository.ITransferenciaRepository;
 import com.uce.edu.demo.repository.modelo.CuentaBancaria;
 import com.uce.edu.demo.repository.modelo.Transferencia;
-import com.uce.edu.demo.service.ITransferenciaService;
 
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
@@ -33,7 +31,7 @@ public class CuentaBancariaTest {
 	private ITransferenciaService iTransferenciaService;
 
 	@Autowired
-	private ICuentaBancariaRepository iCuentaBancariaRepository;
+	private ICuentaBancariaService iCuentaBancariaService;
 
 	@Test
 	@Rollback(true)
@@ -50,8 +48,8 @@ public class CuentaBancariaTest {
 	@Rollback(true)
 	public void insertarTransferenciaTest() {
 
-		CuentaBancaria ctaOrigen = this.iCuentaBancariaRepository.buscarPorNumero("18392");
-		CuentaBancaria ctaDestino = this.iCuentaBancariaRepository.buscarPorNumero("124141");
+		CuentaBancaria ctaOrigen = this.iCuentaBancariaService.buscarPorNumero("18392");
+		CuentaBancaria ctaDestino = this.iCuentaBancariaService.buscarPorNumero("124141");
 
 		Transferencia tra = new Transferencia();
 		tra.setFecha(LocalDateTime.now());
@@ -68,7 +66,7 @@ public class CuentaBancariaTest {
 	@Rollback(true)
 	public void cuentaBancariaBuscarPorNumeroTest() {
 
-		assertThat(this.iCuentaBancariaRepository.buscarPorNumero("18392")).isNotNull();
+		assertThat(this.iCuentaBancariaService.buscarPorNumero("18392")).isNotNull();
 	}
 
 }
