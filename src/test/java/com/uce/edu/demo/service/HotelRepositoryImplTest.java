@@ -30,7 +30,6 @@ public class HotelRepositoryImplTest {
 		hotel.setNombre("Hotel Marcos");
 
 		this.iHotelService.insertar(hotel);
-
 		assertNotNull(hotel.getDireccion(), hotel.getNombre());
 	}
 
