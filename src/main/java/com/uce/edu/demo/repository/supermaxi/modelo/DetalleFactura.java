@@ -1,4 +1,4 @@
-package com.uce.edu.demo.repository.modelo;
+package com.uce.edu.demo.repository.supermaxi.modelo;
 
 import java.math.BigDecimal;
 
@@ -14,7 +14,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "detalle")
-public class Detalle {
+public class DetalleFactura {
 
 	@Id
 	@Column(name = "deta_id")
@@ -22,19 +22,23 @@ public class Detalle {
 	@SequenceGenerator(name = "deta_id_seq", sequenceName = "deta_id_seq", allocationSize = 1)
 	private Integer id;
 
-	@Column(name = "deta_descripcion")
-	private String descripcion;
+	@Column(name = "deta_cantidad")
+	private Integer cantidad;
 
-	@Column(name = "deta_costo")
-	private BigDecimal costo;
+	@Column(name = "deta_subtotal")
+	private BigDecimal subtotal;
 
 	@ManyToOne
 	@JoinColumn(name = "deta_id_factura")
 	private Factura factura;
 
+	@ManyToOne
+	@JoinColumn(name = "deta_id_producto")
+	private Producto producto;
+
 	@Override
 	public String toString() {
-		return "Detalle [id=" + id + ", descripcion=" + descripcion + ", costo=" + costo + ", factura=" + factura + "]";
+		return "DetalleFactura [id=" + id + ", cantidad=" + cantidad + ", subtotal=" + subtotal + "]";
 	}
 
 	// GET Y SET
@@ -42,24 +46,32 @@ public class Detalle {
 		return id;
 	}
 
+	public Producto getProducto() {
+		return producto;
+	}
+
+	public void setProducto(Producto producto) {
+		this.producto = producto;
+	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
 
-	public String getDescripcion() {
-		return descripcion;
+	public Integer getCantidad() {
+		return cantidad;
 	}
 
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
+	public void setCantidad(Integer cantidad) {
+		this.cantidad = cantidad;
 	}
 
-	public BigDecimal getCosto() {
-		return costo;
+	public BigDecimal getSubtotal() {
+		return subtotal;
 	}
 
-	public void setCosto(BigDecimal costo) {
-		this.costo = costo;
+	public void setSubtotal(BigDecimal subtotal) {
+		this.subtotal = subtotal;
 	}
 
 	public Factura getFactura() {

@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import com.uce.edu.demo.repository.modelo.Factura;
+import com.uce.edu.demo.repository.supermaxi.modelo.Factura;
 
 @Repository
 @Transactional
@@ -41,7 +41,7 @@ public class FacturaRepositoryImpl implements IFacturaRepository {
 		miQuery.setParameter("descripcionDetalle", descripcionDetalle);
 		List<Factura> facturas = miQuery.getResultList();
 		for (Factura f : facturas) {
-			f.getDetalles().size();
+			f.getDetallefactura().size();
 		}
 		return facturas;
 	}

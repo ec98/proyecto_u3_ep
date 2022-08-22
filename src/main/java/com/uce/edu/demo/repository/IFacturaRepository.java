@@ -2,7 +2,7 @@ package com.uce.edu.demo.repository;
 
 import java.util.List;
 
-import com.uce.edu.demo.repository.modelo.Factura;
+import com.uce.edu.demo.repository.supermaxi.modelo.Factura;
 
 public interface IFacturaRepository {
 

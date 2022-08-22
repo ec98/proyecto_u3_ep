@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.uce.edu.demo.repository.IFacturaRepository;
-import com.uce.edu.demo.repository.modelo.Factura;
+import com.uce.edu.demo.repository.supermaxi.modelo.Factura;
 
 @Service
 public class FacturaServiceImpl implements IFacturaService {
