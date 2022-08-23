@@ -17113,3 +17113,17 @@ Caused by: java.lang.RuntimeException
 2022-08-21 23:58:00,179 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
 2022-08-21 23:58:00,181 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
 2022-08-21 23:58:00,185 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-22 19:52:48,502 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-22 19:56:14,378 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-22 19:56:14,382 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-22 20:01:00,703 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-22 20:01:00,708 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-22 20:01:00,708 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-22 20:15:34,982 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-22 20:15:34,986 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-22 20:15:34,987 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-22 20:15:34,987 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-22 20:20:08,776 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-22 20:20:08,782 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-22 20:20:08,783 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-22 20:20:08,784 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
