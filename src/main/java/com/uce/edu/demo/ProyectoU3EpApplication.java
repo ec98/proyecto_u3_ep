@@ -56,6 +56,6 @@ public class ProyectoU3EpApplication implements CommandLineRunner {
 
 		listCod.add(producto.getCodigo());
 
-		this.iSupermaxiFacturaProductoService.compraProducto("182821911", "3456", listCod);
+		this.iSupermaxiFacturaProductoService.compraProducto("182821911", "123", listCod);
 	}
 }

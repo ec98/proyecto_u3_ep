@@ -17127,3 +17127,328 @@ Caused by: java.lang.RuntimeException
 2022-08-22 20:20:08,782 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
 2022-08-22 20:20:08,783 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
 2022-08-22 20:20:08,784 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:02:59,054 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 8128 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-23 19:02:59,058 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-23 19:02:59,097 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-23 19:02:59,734 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-23 19:02:59,757 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces. 
+2022-08-23 19:03:00,174 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-23 19:03:00,271 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-23 19:03:00,517 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-23 19:03:00,670 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-23 19:03:00,904 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-23 19:03:00,928 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-23 19:03:01,857 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-23 19:03:01,866 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:03:02,106 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-23 19:03:02,136 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.417 seconds (JVM running for 4.668) 
+2022-08-23 19:03:02,371 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-08-23 19:03:02,399 [restartedMain] ERROR o.s.b.SpringApplication                            - Application run failed 
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.uce.edu.demo.ProyectoU3EpApplication.main(ProyectoU3EpApplication.java:35) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.0.jar:2.7.0]
+Caused by: java.lang.RuntimeException
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl.procesarElectronica(SupermaxiFacturaElectronicaServiceImpl.java:32) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$FastClassBySpringCGLIB$$1347b45e.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$EnhancerBySpringCGLIB$$89425d4c.procesarElectronica(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl.compraProducto(SupermaxiFacturaProductoServiceImpl.java:63) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$FastClassBySpringCGLIB$$f5d0bf27.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$EnhancerBySpringCGLIB$$6f20347.compraProducto(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.ProyectoU3EpApplication.run(ProyectoU3EpApplication.java:59) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.0.jar:2.7.0]
+	... 10 more
+2022-08-23 19:03:02,412 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:03:02,414 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-23 19:03:02,417 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-23 19:05:39,942 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 20908 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-23 19:05:39,945 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-23 19:05:39,995 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-23 19:05:40,405 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-23 19:05:40,426 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces. 
+2022-08-23 19:05:40,749 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-23 19:05:40,800 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-23 19:05:40,951 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-23 19:05:41,045 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-23 19:05:41,230 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-23 19:05:41,250 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-23 19:05:42,079 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-23 19:05:42,090 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:05:42,298 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-23 19:05:42,318 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 2.692 seconds (JVM running for 3.762) 
+2022-08-23 19:05:42,568 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-08-23 19:05:42,594 [restartedMain] ERROR o.s.b.SpringApplication                            - Application run failed 
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.uce.edu.demo.ProyectoU3EpApplication.main(ProyectoU3EpApplication.java:35) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.0.jar:2.7.0]
+Caused by: java.lang.RuntimeException
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl.procesarElectronica(SupermaxiFacturaElectronicaServiceImpl.java:32) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$FastClassBySpringCGLIB$$1347b45e.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$EnhancerBySpringCGLIB$$6a2d268a.procesarElectronica(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl.compraProducto(SupermaxiFacturaProductoServiceImpl.java:63) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$FastClassBySpringCGLIB$$f5d0bf27.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$EnhancerBySpringCGLIB$$e7dccc85.compraProducto(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.ProyectoU3EpApplication.run(ProyectoU3EpApplication.java:59) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.0.jar:2.7.0]
+	... 10 more
+2022-08-23 19:05:42,606 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:05:42,610 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-23 19:05:42,614 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-23 19:13:03,281 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 5180 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-23 19:13:03,284 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-23 19:13:03,322 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-23 19:13:03,717 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-23 19:13:03,738 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces. 
+2022-08-23 19:13:04,059 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-23 19:13:04,105 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-23 19:13:04,257 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-23 19:13:04,349 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-23 19:13:04,527 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-23 19:13:04,543 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-23 19:13:05,315 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-23 19:13:05,322 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:13:05,519 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-23 19:13:05,538 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 2.562 seconds (JVM running for 3.551) 
+2022-08-23 19:13:05,772 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-08-23 19:13:05,789 [restartedMain] ERROR o.s.b.SpringApplication                            - Application run failed 
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.uce.edu.demo.ProyectoU3EpApplication.main(ProyectoU3EpApplication.java:35) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.0.jar:2.7.0]
+Caused by: java.lang.RuntimeException
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl.procesarElectronica(SupermaxiFacturaElectronicaServiceImpl.java:32) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$FastClassBySpringCGLIB$$1347b45e.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaElectronicaServiceImpl$$EnhancerBySpringCGLIB$$39bc8689.procesarElectronica(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl.compraProducto(SupermaxiFacturaProductoServiceImpl.java:63) ~[classes/:?]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$FastClassBySpringCGLIB$$f5d0bf27.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.20.jar:5.3.20]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.20.jar:5.3.20]
+	at com.uce.edu.demo.service.supermaxi.SupermaxiFacturaProductoServiceImpl$$EnhancerBySpringCGLIB$$b76c2c84.compraProducto(<generated>) ~[classes/:?]
+	at com.uce.edu.demo.ProyectoU3EpApplication.run(ProyectoU3EpApplication.java:59) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.0.jar:2.7.0]
+	... 10 more
+2022-08-23 19:13:05,799 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-23 19:13:05,801 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-23 19:13:05,805 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-23 19:24:51,386 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:24:51,391 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:24:51,393 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:24:51,393 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:24:51,395 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> false 
+2022-08-23 19:25:11,222 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:25:11,225 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:25:11,226 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:25:11,226 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:25:11,227 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> false 
+2022-08-23 19:25:23,855 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:25:23,858 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:25:23,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:25:23,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:25:23,862 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:30:01,796 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:30:01,799 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:30:01,800 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:30:01,801 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:30:01,803 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:30:12,415 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:30:12,418 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:30:12,418 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:30:12,419 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:30:12,420 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:30:12,420 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> 5 
+2022-08-23 19:33:00,735 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:33:00,738 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:33:00,739 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:33:00,739 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:33:00,740 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:33:00,741 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> 5 
+2022-08-23 19:36:23,703 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:36:23,708 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:36:23,709 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:36:23,709 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:36:23,710 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:36:23,711 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> 5 
+2022-08-23 19:36:54,425 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:36:54,430 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:36:54,431 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:36:54,431 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:36:54,433 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:36:54,433 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> 5 
+2022-08-23 19:36:54,434 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlossafari 
+2022-08-23 19:37:05,455 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:37:05,459 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:37:05,459 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:37:05,460 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:37:05,461 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:37:05,462 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> 5 
+2022-08-23 19:37:05,462 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 19:37:26,977 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:37:26,981 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:37:26,981 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:37:26,981 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:37:26,983 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:37:26,983 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 19:37:26,984 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 19:56:55,261 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:56:55,265 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:56:55,265 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:56:55,266 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:56:55,266 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo 
+2022-08-23 19:56:55,267 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:56:55,268 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 19:56:55,269 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 19:58:28,540 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 19:58:28,544 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 19:58:28,545 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 19:58:28,545 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 19:58:28,546 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundoSe proceso el dato 
+2022-08-23 19:58:28,548 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 19:58:28,549 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 19:58:28,549 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:01:10,708 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:01:10,713 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:01:10,714 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:01:10,714 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:01:10,715 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundoSe proceso el dato 
+2022-08-23 20:01:10,715 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811Se proceso el dato 
+2022-08-23 20:01:10,716 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:01:10,717 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:01:10,718 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:01:22,639 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:01:22,643 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:01:22,643 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:01:22,644 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:01:22,644 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-23 20:01:22,644 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-23 20:01:22,646 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:01:22,646 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:01:22,647 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:04:26,142 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:04:26,147 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:04:26,148 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:04:26,148 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:04:26,149 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-23 20:04:26,149 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-23 20:04:26,151 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:04:26,152 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:04:26,153 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:06:55,457 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:06:55,461 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:06:55,462 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:06:55,462 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:06:55,463 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-23 20:06:55,463 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-23 20:06:55,465 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:06:55,465 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> false 
+2022-08-23 20:06:55,466 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:06:55,467 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:07:29,298 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:07:29,302 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:07:29,303 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:07:29,303 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:07:29,303 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-23 20:07:29,304 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-23 20:07:29,305 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:07:29,306 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-23 20:07:29,307 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:07:29,307 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-23 20:13:12,326 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-23 20:13:12,329 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-23 20:13:12,330 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-23 20:13:12,330 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-23 20:13:12,331 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-23 20:13:12,331 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-23 20:13:12,333 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-23 20:13:12,334 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-23 20:13:12,334 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-23 20:13:12,335 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-23 20:13:12,336 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 

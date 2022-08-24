@@ -36,7 +36,7 @@ public class Factura {
 	@JoinColumn(name = "fact_id_cliente")
 	private Cliente cliente;
 
-	@OneToMany(mappedBy = "factura", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "factura", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<DetalleFactura> detallefactura;
 
 	@Override

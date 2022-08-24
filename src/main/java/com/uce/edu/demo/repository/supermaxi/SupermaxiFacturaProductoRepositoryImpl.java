@@ -17,14 +17,14 @@ public class SupermaxiFacturaProductoRepositoryImpl implements ISupermaxiFactura
 	private EntityManager entityManager;
 
 	@Override
-	@Transactional(value = TxType.MANDATORY)
+	@Transactional(value = TxType.REQUIRES_NEW)
 	public void crear(Factura factura) {
 		// TODO Auto-generated method stub
 		this.entityManager.persist(factura);
 	}
 
 	@Override
-	@Transactional(value = TxType.MANDATORY)
+	@Transactional(value = TxType.REQUIRES_NEW)
 	public void actualizar(Factura factura) {
 		// TODO Auto-generated method stub
 		this.entityManager.merge(factura);
