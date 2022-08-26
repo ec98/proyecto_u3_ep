@@ -35,6 +35,7 @@ public class SupermaxiProductoRepositoryImpl implements ISupermaxiProductoReposi
 	}
 
 	@Override
+	@Transactional(value = TxType.MANDATORY)
 	public void actualizar(Producto producto) {
 		// TODO Auto-generated method stub
 		this.entityManager.merge(producto);

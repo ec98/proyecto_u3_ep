@@ -28,14 +28,11 @@ public class SupermaxiFacturaProductoServiceImpl implements ISupermaxiFacturaPro
 	private ISupermaxiClienteRepository iClienteRepository;
 
 	@Autowired
-	private ISupermaxiFacturaElectronicaService iSupermaxiFacturaElectronicaService;
-
-	@Autowired
 	private IFacturaRepository iFacturaRepository;
 
 	@Override
 	@Transactional(value = TxType.REQUIRED)
-	public void compraProducto(String cedula, String numero, List<String> codigo) {
+	public BigDecimal compraProducto(String cedula, String numero, List<String> codigo) {
 		// TODO Auto-generated method stub
 		Factura factura = new Factura();
 		factura.setNumero(numero);
@@ -55,12 +52,14 @@ public class SupermaxiFacturaProductoServiceImpl implements ISupermaxiFacturaPro
 			detalle.setSubtotal(detalle.getProducto().getPrecio());
 			detalle.setFactura(factura);
 			milist.add(detalle);
-//			this.iDetalleRepository.insertar(detalle);
 			producto.setInventario(producto.getInventario() - detalle.getCantidad());
 			this.iProductoRepository.actualizar(producto);
 			valor = valor.add(detalle.getSubtotal());
 		}
-		this.iSupermaxiFacturaElectronicaService.procesarElectronica(numero, codigo.size(), valor);
+		factura.setDetallefactura(milist);
+		
+		this.iFacturaRepository.insertar(factura);
+		return valor;
 	}
 
 }

@@ -30,6 +30,7 @@ public class SupermaxiProductoServiceImpl implements ISupermaxiProductoService {
 	}
 
 	@Override
+	@Transactional(value = TxType.REQUIRED)
 	public Producto buscarPorCodigo(String codigo) {
 		// TODO Auto-generated method stub
 		return this.iProductoRepository.buscarPorCodigo(codigo);

@@ -13,20 +13,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.uce.edu.demo.repository.supermaxi.modelo.Cliente;
 import com.uce.edu.demo.repository.supermaxi.modelo.Producto;
-import com.uce.edu.demo.service.supermaxi.ISupermaxiClienteService;
 import com.uce.edu.demo.service.supermaxi.ISupermaxiFacturaProductoService;
-import com.uce.edu.demo.service.supermaxi.ISupermaxiProductoService;
 
 @SpringBootApplication
 public class ProyectoU3EpApplication implements CommandLineRunner {
 
 	private static final Logger Logger = LoggerFactory.getLogger(ProyectoU3EpApplication.class);
-
-	@Autowired
-	private ISupermaxiProductoService iProductoService;
-
-	@Autowired
-	private ISupermaxiClienteService iSupermaxiClienteService;
 
 	@Autowired
 	private ISupermaxiFacturaProductoService iSupermaxiFacturaProductoService;
