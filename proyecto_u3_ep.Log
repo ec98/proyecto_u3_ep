@@ -17542,3 +17542,197 @@ Caused by: java.lang.RuntimeException
 2022-08-25 19:54:35,412 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
 2022-08-25 19:54:35,416 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
 2022-08-25 19:54:35,422 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-25 20:51:32,730 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 20:52:54,413 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 20:52:54,417 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:00:47,739 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:00:47,742 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:00:47,742 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:08:35,829 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:08:35,831 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:08:35,832 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:09:19,879 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:09:19,882 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:09:19,883 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:12:34,211 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:12:34,213 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:12:34,214 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:14:50,069 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:14:50,072 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:14:50,072 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:14:50,073 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> false 
+2022-08-25 21:19:27,913 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:19:27,916 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:19:27,916 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:19:27,917 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> false 
+2022-08-25 21:19:27,918 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:22:00,312 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:22:00,315 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:22:00,316 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:22:00,317 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> false 
+2022-08-25 21:22:00,317 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:22:00,317 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:27:37,194 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:27:37,197 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:27:37,197 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:27:37,198 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:27:37,198 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:27:37,199 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:27:37,199 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 24000 
+2022-08-25 21:27:58,876 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:27:58,878 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:27:58,879 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:27:58,880 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:27:58,880 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:27:58,880 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:28:06,298 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:28:06,301 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:28:06,301 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:28:06,303 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:28:06,303 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:28:06,303 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:28:06,304 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:29:59,279 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:29:59,282 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:29:59,282 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:29:59,283 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:29:59,284 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:29:59,284 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:29:59,284 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:29:59,285 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150056 
+2022-08-25 21:30:26,502 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:30:26,505 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:30:26,505 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:30:26,506 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:30:26,506 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:30:26,507 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:30:26,507 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:30:26,507 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 350 
+2022-08-25 21:31:12,393 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:31:12,396 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:31:12,396 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:31:12,397 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:31:12,398 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:31:12,398 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:31:12,398 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:31:12,399 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:35:22,392 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:35:22,395 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:35:22,396 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:35:22,397 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:35:22,398 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:35:22,399 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:35:22,400 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:35:22,400 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:35:22,400 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function uso prestado -> 1140 Prestado 
+2022-08-25 21:36:21,359 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 9952 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-25 21:36:21,362 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-25 21:36:21,399 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-25 21:36:21,735 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-25 21:36:21,757 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces. 
+2022-08-25 21:36:22,030 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-25 21:36:22,070 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-25 21:36:22,202 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-25 21:36:22,284 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-25 21:36:22,452 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-25 21:36:22,466 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-25 21:36:23,135 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-25 21:36:23,142 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-25 21:36:23,315 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-25 21:36:23,330 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 2.248 seconds (JVM running for 3.137) 
+2022-08-25 21:36:23,534 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-25 21:36:23,536 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-25 21:36:23,538 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-25 21:36:29,954 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:36:29,958 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:36:29,958 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:36:29,959 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:36:29,960 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:36:29,960 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:36:29,960 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:36:29,960 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:36:29,961 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor 2023 
+2022-08-25 21:41:51,914 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:41:51,917 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:41:51,917 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:41:51,918 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:41:51,918 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:41:51,919 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:41:51,919 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:41:51,919 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:41:51,920 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:41:51,920 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini 2023 
+2022-08-25 21:42:28,523 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:42:28,526 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:42:28,526 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:42:28,527 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:42:28,527 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:42:28,528 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:42:28,528 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:42:28,528 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:42:28,529 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:42:28,529 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini 2023 
+2022-08-25 21:43:04,554 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:43:04,556 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:43:04,556 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:43:04,558 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:43:04,558 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:43:04,558 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:43:04,559 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:43:04,559 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:43:04,559 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:43:04,560 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo LamborghiniNuevo Modelo Lamborghini AX  2023 
+2022-08-25 21:43:24,830 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:43:24,832 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:43:24,833 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:43:24,834 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:43:24,834 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:43:24,834 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:43:24,835 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:43:24,835 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:43:24,835 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:43:24,836 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> OneOne AX  2023 
+2022-08-25 21:43:58,871 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:43:58,874 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:43:58,874 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:43:58,875 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:43:58,875 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:43:58,876 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:43:58,876 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:43:58,876 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:43:58,877 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:43:58,877 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini  AX  2023 
+2022-08-25 21:46:00,636 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:46:00,638 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:46:00,638 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:46:00,639 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:46:00,640 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:46:00,640 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:46:00,640 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:46:00,641 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:46:00,641 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:46:00,641 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-08-25 21:46:00,642 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Lambda ->  LamborghiniSWX 
+2022-08-25 21:46:12,028 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:46:12,031 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:46:12,031 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:46:12,032 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:46:12,033 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:46:12,033 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:46:12,033 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:46:12,034 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:46:12,034 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:46:12,034 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-08-25 21:46:12,035 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Lambda -> Lamborghini SWX 
+2022-08-25 21:49:18,796 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Class (costo) -> 20000 
+2022-08-25 21:49:18,799 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Supplier Lambda (costo) -> 15000 
+2022-08-25 21:49:18,799 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Supplier (costo) -> 350000 
+2022-08-25 21:49:18,800 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Class valor -> true 
+2022-08-25 21:49:18,800 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Predicate Lambda valor -> true 
+2022-08-25 21:49:18,801 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Predicate valor -> false 
+2022-08-25 21:49:18,801 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Class precio -> 250000 
+2022-08-25 21:49:18,801 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Function Lambda precio final -> 150000 
+2022-08-25 21:49:18,802 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Function new value -> 230000 valor in 2023 
+2022-08-25 21:49:18,802 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-08-25 21:49:18,802 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Lambda -> Lamborghini SWX 
+2022-08-25 21:49:18,803 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Unary Operator -> $540000 Lamborghini X 
