@@ -17736,3 +17736,139 @@ Caused by: java.lang.RuntimeException
 2022-08-25 21:49:18,802 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
 2022-08-25 21:49:18,802 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - Unary Operator Lambda -> Lamborghini SWX 
 2022-08-25 21:49:18,803 [main] INFO  c.u.e.d.s.f.MenuInterfazFuncional                  - HO Unary Operator -> $540000 Lamborghini X 
+2022-08-26 13:05:32,380 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Starting ProyectoU3EpApplication using Java 17.0.2 on CARLOS with PID 24232 (C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep\target\classes started by Carlos in C:\Users\59393\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\proyecto_u3_ep) 
+2022-08-26 13:05:32,384 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - No active profile set, falling back to 1 default profile: "default" 
+2022-08-26 13:05:32,436 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-08-26 13:05:32,960 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-08-26 13:05:32,991 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces. 
+2022-08-26 13:05:33,393 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2022-08-26 13:05:33,489 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.9.Final 
+2022-08-26 13:05:33,776 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2022-08-26 13:05:33,968 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2022-08-26 13:05:34,317 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2022-08-26 13:05:34,346 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2022-08-26 13:05:35,385 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-08-26 13:05:35,394 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-26 13:05:35,639 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2022-08-26 13:05:35,659 [restartedMain] INFO  c.u.e.d.ProyectoU3EpApplication                    - Started ProyectoU3EpApplication in 3.701 seconds (JVM running for 5.085) 
+2022-08-26 13:05:36,115 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2022-08-26 13:05:36,118 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated... 
+2022-08-26 13:05:36,122 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed. 
+2022-08-29 18:39:55,947 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 18:39:55,951 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 18:39:55,952 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 18:39:55,953 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 18:39:55,953 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 18:39:55,955 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 18:39:55,955 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 18:39:55,958 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 18:39:55,960 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 18:39:55,960 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 18:39:55,960 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 18:39:55,961 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 18:39:55,961 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 18:40:37,512 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 18:40:37,515 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 18:40:37,516 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 18:40:37,518 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 18:40:37,518 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 18:40:37,519 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 18:40:37,519 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 18:40:37,523 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 18:40:37,524 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 18:40:37,524 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 18:40:37,525 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 18:40:37,525 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 18:40:37,526 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 18:50:48,048 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 18:50:48,051 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 18:50:48,052 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 18:50:48,052 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 18:50:48,052 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 18:50:48,052 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 18:50:48,052 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 18:50:48,054 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 18:50:48,055 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 18:50:48,056 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 18:50:48,056 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 18:50:48,060 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 18:50:48,061 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 18:50:48,061 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 18:54:28,427 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 18:54:28,430 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 18:54:28,430 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 18:54:28,430 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 18:54:28,431 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 18:54:28,431 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 18:54:28,431 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 18:54:28,438 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 18:54:28,439 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 18:54:28,440 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 18:54:28,440 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 18:54:28,441 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 18:54:28,441 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 18:54:28,441 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 18:57:16,623 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 18:57:16,626 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 18:57:16,627 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 18:57:16,627 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 18:57:16,627 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 18:57:16,628 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 18:57:16,628 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 18:57:16,630 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 18:57:16,630 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 18:57:16,631 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 18:57:16,631 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 18:57:16,632 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 18:57:16,632 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 18:57:16,632 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 19:09:29,187 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 19:09:29,190 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 19:09:29,190 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 19:09:29,190 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 19:09:29,191 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 19:09:29,191 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 19:09:29,191 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 19:09:29,195 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 19:09:29,197 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 19:09:29,197 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 19:09:29,197 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 19:09:29,198 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 19:09:29,199 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 19:09:29,199 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Function 
+2022-08-29 19:09:29,200 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 19:13:25,755 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 19:13:25,759 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 19:13:25,760 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 19:13:25,760 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 19:13:25,760 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 19:13:25,760 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 19:13:25,761 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 19:13:25,763 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 19:13:25,764 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 19:13:25,764 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 19:13:25,764 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 19:13:25,765 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 19:13:25,766 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 19:13:25,766 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Function 
+2022-08-29 19:13:25,767 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 19:13:39,848 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 19:13:39,851 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 19:13:39,851 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 19:13:39,851 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 19:13:39,852 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 19:13:39,852 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 19:13:39,852 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 19:13:39,856 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 19:13:39,856 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 19:13:39,857 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 19:13:39,857 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 19:13:39,858 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 19:13:39,858 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 19:13:39,858 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Function 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 2 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 3 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 4 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 5 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 6 
+2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 

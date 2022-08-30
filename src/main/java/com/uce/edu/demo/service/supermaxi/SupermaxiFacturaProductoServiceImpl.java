@@ -11,8 +11,8 @@ import javax.transaction.Transactional.TxType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.uce.edu.demo.repository.IFacturaRepository;
 import com.uce.edu.demo.repository.supermaxi.ISupermaxiClienteRepository;
+import com.uce.edu.demo.repository.supermaxi.ISupermaxiFacturaRepository;
 import com.uce.edu.demo.repository.supermaxi.ISupermaxiProductoRepository;
 import com.uce.edu.demo.repository.supermaxi.modelo.DetalleFactura;
 import com.uce.edu.demo.repository.supermaxi.modelo.Factura;
@@ -28,7 +28,7 @@ public class SupermaxiFacturaProductoServiceImpl implements ISupermaxiFacturaPro
 	private ISupermaxiClienteRepository iClienteRepository;
 
 	@Autowired
-	private IFacturaRepository iFacturaRepository;
+	private ISupermaxiFacturaRepository iFacturaRepository;
 
 	@Override
 	@Transactional(value = TxType.REQUIRED)
@@ -43,7 +43,7 @@ public class SupermaxiFacturaProductoServiceImpl implements ISupermaxiFacturaPro
 
 		BigDecimal valor = new BigDecimal(0);
 
-		this.iFacturaRepository.insertar(factura);
+		//this.iFacturaRepository.insertar(factura);
 		for (String item : codigo) {
 			DetalleFactura detalle = new DetalleFactura();
 			detalle.setCantidad(1);

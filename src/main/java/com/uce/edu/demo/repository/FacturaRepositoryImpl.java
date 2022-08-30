@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import com.uce.edu.demo.repository.supermaxi.modelo.Factura;
+import com.uce.edu.demo.repository.modelo.Factura;
 
 @Repository
 @Transactional

@@ -1,10 +1,31 @@
 package com.uce.edu.demo.service.funcional;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MainInterfacesFuncionales {
 	private static final Logger Logger = LoggerFactory.getLogger(MainInterfacesFuncionales.class);
+
+	public static boolean prueba(Integer numero) {
+		return numero >= 3;
+	}
+
+	// siempre usar el static, porque el main trabaja con static.
+	public static void imprimir(String cadena) {
+		Logger.info("Impresion ->" + cadena);
+
+	}
+
+	public static void guardar(String elementoAInsertar) {
+		// Consumero del repository para guardar.
+	}
 
 	public static void main(String[] args) {
 
@@ -36,8 +57,11 @@ public class MainInterfacesFuncionales {
 		Logger.info("HO Supplier -> " + valorH1);
 
 		/**
-		 * JAVA tiene la herramienta necesaria para trabajar con LAMBDAS
+		 * JAVA: tiene la herramienta necesaria para trabajar con LAMBDAS //Supplier
 		 */
+		Logger.info("JAVA Supplier");
+		Stream<String> test = Stream.generate(() -> "Edwin v1").limit(7);// supplier
+		test.forEach(cadena -> System.out.println(cadena)); // consumer
 
 		// CONSUMER
 		// Clases
@@ -51,6 +75,13 @@ public class MainInterfacesFuncionales {
 		// Metodos High Order
 		metodosHO.consumirConsumer(valor -> System.out.println(valor), 2);
 
+		/**
+		 * JAVA Consumer
+		 */
+		Logger.info("JAVA Consumer");
+		List<Integer> listNumeros = Arrays.asList(1, 2, 3, 4, 5);
+		listNumeros.forEach(numero -> System.out.println(numero));
+
 		// PREDICATE
 		// Clases
 		// Lambdas
@@ -60,6 +91,15 @@ public class MainInterfacesFuncionales {
 		// Metodos High Order
 		boolean resultado = metodosHO.consumirPredicate(cadena -> cadena.contains("z"), "Edwzin"); // compara el dato
 		Logger.info("High Order Predicate  -> " + resultado);
+
+		/**
+		 * JAVA Predicate
+		 */
+		Logger.info("JAVA Predicate"); // se utiliza para condiciones.
+		// filter recibe predicate.
+		// listNumeros.stream().filter(numero -> numero >= 3);
+		Stream<Integer> nuevalista = listNumeros.stream().filter(numero -> prueba(numero));
+		nuevalista.forEach(numero -> System.out.println(numero));
 
 		// FUNCTION
 		// Clases
@@ -79,6 +119,37 @@ public class MainInterfacesFuncionales {
 			return retorn;
 		}, 1);
 		Logger.info("High Order Function Lambda -> " + valorFinalHO);
+
+		/**
+		 * JAVA FUNCTION
+		 */
+		Logger.info("JAVA Function");
+		// Conversiones/cast Objeto -> ObjetoDTO (Ligero)
+		// listNumeros.stream().map(numerosList -> {
+		Stream<String> listaCambio = listNumeros.stream().map(numerosList -> {
+			Integer valor = numerosList + 1;
+			String cadena = "num: " + valor.toString();
+			return cadena;
+		});
+		/**
+		 *  Declarativa: ideas/intenciones
+		 */
+//		listaCambio.forEach(valor -> System.out.println(valor));
+		listaCambio.forEach(valor -> imprimir(valor));
+//		listaCambio.forEach(valor -> guardar(valor));
+
+		/**
+		 *  Imperativa: paso a paso
+		 */
+//		for(String valor:) {
+//			imprimir(valor);
+//		}
+
+		/**
+		 * Eficiente y mejor rendimiento.
+		 */
+//		List<String> lista1= new ArrayList<String>();
+//		Map<String, String> map1 = new HashMap<String, String>();
 
 		// UNARY OPERATOR (FUNCTION)
 		// Clases
