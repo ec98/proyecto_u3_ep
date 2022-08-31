@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 public class PCCajero {
 
 	public void procesar(Cajero cajero) {
+		
+		System.out.println("Nombre Hilo Procesar: "+Thread.currentThread().getName());
 		System.out.println("Procesando Cajero: " + cajero.getNombre());
 		for (String cliente : cajero.getClientes()) {
 			this.atenderCliente(cliente);

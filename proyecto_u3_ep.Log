@@ -17872,3 +17872,23 @@ Caused by: java.lang.RuntimeException
 2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 5 
 2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 6 
 2022-08-29 19:13:39,859 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-08-29 20:25:44,776 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-08-29 20:25:44,780 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-08-29 20:25:44,780 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-08-29 20:25:44,781 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-08-29 20:25:44,781 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-08-29 20:25:44,782 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-08-29 20:25:44,782 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-08-29 20:25:44,785 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-08-29 20:25:44,786 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-08-29 20:25:44,786 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-08-29 20:25:44,786 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-08-29 20:25:44,788 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-08-29 20:25:44,788 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-08-29 20:25:44,788 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Function 
+2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 2 
+2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 3 
+2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 4 
+2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 5 
+2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 6 
+2022-08-29 20:25:44,790 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
