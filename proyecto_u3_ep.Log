@@ -17892,3 +17892,480 @@ Caused by: java.lang.RuntimeException
 2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 5 
 2022-08-29 20:25:44,789 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 6 
 2022-08-29 20:25:44,790 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-09-01 22:52:10,236 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 22:52:10,239 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 22:52:10,240 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 22:52:10,240 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 22:52:10,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 22:52:10,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 22:52:10,246 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 22:52:10,246 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 22:52:10,247 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 22:52:10,247 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 22:52:10,248 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 22:52:10,248 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 22:52:10,249 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 22:53:07,869 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 22:53:07,872 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 22:53:07,872 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 22:53:07,873 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 22:53:36,242 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 22:53:36,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 22:53:36,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 22:53:36,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 22:53:36,248 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 22:53:36,248 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 22:53:36,249 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 22:53:36,249 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 22:53:36,250 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 22:53:36,250 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 22:53:36,251 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 22:53:36,251 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 22:53:36,251 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 22:56:02,795 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 22:56:02,799 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 22:56:02,800 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 22:56:02,800 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 22:56:02,801 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 22:56:02,802 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 22:56:02,802 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 22:56:02,803 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 22:56:02,803 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 22:56:02,804 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 22:56:02,804 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 22:56:02,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 22:56:02,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 22:56:02,806 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:08:23,606 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:08:23,610 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:08:23,610 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:08:23,610 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:08:23,613 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:08:23,614 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:08:23,615 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:08:23,615 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:08:23,615 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:08:23,616 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:08:23,617 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:08:23,617 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:08:23,618 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:08:23,618 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:08:23,618 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:18:27,726 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:18:27,730 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:18:27,730 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:18:27,730 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:18:27,732 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:18:27,733 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:18:27,734 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:18:27,734 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:18:27,734 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:18:27,735 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:18:27,736 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:18:27,736 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:18:27,736 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:18:27,737 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:18:27,738 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:18:27,738 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:19:35,083 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Class ->Edwin 
+2022-09-01 23:19:35,087 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier TE ->Daniela Tercera Edad 
+2022-09-01 23:19:35,087 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda ->Edwin 2 
+2022-09-01 23:19:35,088 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - I.F Supplier Lambda TE ->Daniela TE 2 
+2022-09-01 23:19:35,088 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Supplier -> Hola mundo Se proceso el dato 
+2022-09-01 23:19:35,088 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - HO Supplier -> 1218282811 Se proceso el dato 
+2022-09-01 23:19:35,088 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Supplier 
+2022-09-01 23:19:35,091 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Consumer 
+2022-09-01 23:19:35,092 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Predicate Lambda -> true 
+2022-09-01 23:19:35,093 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Predicate  -> true 
+2022-09-01 23:19:35,093 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Predicate 
+2022-09-01 23:19:35,095 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Function Lambda -> 5 
+2022-09-01 23:19:35,095 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - High Order Function Lambda -> 1A 
+2022-09-01 23:19:35,095 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - JAVA Function 
+2022-09-01 23:19:35,096 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 2 
+2022-09-01 23:19:35,096 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 3 
+2022-09-01 23:19:35,096 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 4 
+2022-09-01 23:19:35,096 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 5 
+2022-09-01 23:19:35,096 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Impresion ->num: 6 
+2022-09-01 23:19:35,097 [main] INFO  c.u.e.d.s.f.MainInterfacesFuncionales              - Unary Operator Lambda -> Carlos safari 
+2022-09-01 23:20:11,083 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:20:11,087 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:20:11,087 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:20:11,087 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:20:11,089 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:20:11,090 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:20:11,090 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:20:11,091 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:20:11,091 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:20:11,092 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:20:11,092 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:20:11,093 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:20:11,093 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:20:11,094 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:20:11,095 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:20:11,095 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:21:39,388 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:21:39,392 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:21:39,392 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:21:39,392 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:21:39,394 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:21:39,395 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:21:39,396 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:21:39,396 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:21:39,396 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:21:39,397 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:21:39,398 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:21:39,398 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:21:39,398 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:21:39,399 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $10000 
+2022-09-01 23:21:39,399 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $10000 
+2022-09-01 23:21:39,399 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $10000 
+2022-09-01 23:21:39,399 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $10000 
+2022-09-01 23:21:39,399 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $10000 
+2022-09-01 23:21:39,400 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:21:39,401 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:21:39,401 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:22:34,648 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:22:34,652 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:22:34,652 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:22:34,652 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:22:34,654 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:22:34,655 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:22:34,656 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:22:34,656 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:22:34,656 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:22:34,657 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:22:34,658 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:22:34,658 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:22:34,658 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:22:34,659 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $10000 
+2022-09-01 23:22:34,659 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $10000 
+2022-09-01 23:22:34,659 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $10000 
+2022-09-01 23:22:34,659 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $10000 
+2022-09-01 23:22:34,659 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $10000 
+2022-09-01 23:22:34,660 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:22:34,660 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:22:34,661 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:24:11,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:24:11,238 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:24:11,239 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:24:11,239 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:24:11,241 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:24:11,242 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:24:11,242 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:24:11,242 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:24:11,243 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:24:11,244 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:24:11,244 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:24:11,244 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:24:11,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:24:11,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $10000 
+2022-09-01 23:24:11,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $10000 
+2022-09-01 23:24:11,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $10000 
+2022-09-01 23:24:11,246 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $10000 
+2022-09-01 23:24:11,246 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $10000 
+2022-09-01 23:24:11,246 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:24:11,247 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:24:11,247 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:24:59,735 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:24:59,739 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:24:59,740 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:24:59,740 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:24:59,742 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:24:59,743 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:24:59,743 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:24:59,744 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:24:59,744 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:24:59,745 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:24:59,745 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:24:59,745 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:24:59,746 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:24:59,746 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $10001 
+2022-09-01 23:24:59,746 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $10001 
+2022-09-01 23:24:59,746 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $10001 
+2022-09-01 23:24:59,747 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $10001 
+2022-09-01 23:24:59,747 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $10001 
+2022-09-01 23:24:59,747 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:24:59,748 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:24:59,748 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:27:36,893 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:27:36,897 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:27:36,898 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:27:36,898 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:27:36,900 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:27:36,901 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:27:36,901 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:27:36,901 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:27:36,902 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:27:36,903 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:27:36,903 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:27:36,903 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:27:36,904 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:27:36,904 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10000 
+2022-09-01 23:27:36,904 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10000 
+2022-09-01 23:27:36,904 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10000 
+2022-09-01 23:27:36,904 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10000 
+2022-09-01 23:27:36,905 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10000 
+2022-09-01 23:27:36,905 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:27:36,905 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:27:36,906 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:28:59,225 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:28:59,228 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:28:59,228 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:28:59,229 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:28:59,231 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:28:59,231 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:28:59,232 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:28:59,232 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:28:59,232 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:28:59,233 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:28:59,234 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:28:59,234 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:28:59,234 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:28:59,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10000 
+2022-09-01 23:28:59,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10000 
+2022-09-01 23:28:59,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10000 
+2022-09-01 23:28:59,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10000 
+2022-09-01 23:28:59,235 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10000 
+2022-09-01 23:28:59,236 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:28:59,236 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:28:59,237 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:29:23,794 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:29:23,798 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:29:23,798 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:29:23,798 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:29:23,801 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:29:23,801 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:29:23,802 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:29:23,802 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:29:23,802 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:29:23,803 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:29:23,804 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:29:23,804 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:29:23,804 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:29:23,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10000 
+2022-09-01 23:29:23,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10000 
+2022-09-01 23:29:23,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10000 
+2022-09-01 23:29:23,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10000 
+2022-09-01 23:29:23,805 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10000 
+2022-09-01 23:29:23,806 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:29:23,806 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:29:23,806 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:31:17,245 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:31:17,249 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:31:17,250 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:31:17,250 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:31:17,252 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:31:17,253 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:31:17,253 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:31:17,254 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:31:17,254 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:31:17,255 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:31:17,255 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:31:17,256 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:31:17,256 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:31:17,257 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10000 
+2022-09-01 23:31:17,257 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10000 
+2022-09-01 23:31:17,258 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10000 
+2022-09-01 23:31:17,258 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10000 
+2022-09-01 23:31:17,258 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10000 
+2022-09-01 23:31:17,259 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:31:17,259 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:31:17,260 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:32:45,962 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:32:45,965 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:32:45,966 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:32:45,966 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:32:45,968 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:32:45,969 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:32:45,969 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:32:45,970 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:32:45,970 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:32:45,971 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:32:45,971 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:32:45,972 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:32:45,972 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:32:45,973 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:32:45,973 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:32:45,973 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:32:45,973 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:32:45,973 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 
+2022-09-01 23:32:45,974 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:32:45,974 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:32:45,974 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:33:27,937 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:33:27,941 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:33:27,941 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:33:27,942 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:33:27,945 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:33:27,946 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:33:27,946 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:33:27,947 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:33:27,947 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:33:27,948 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:33:27,948 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:33:27,949 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:33:27,949 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:33:27,949 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:33:27,949 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:33:27,949 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:33:27,950 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:33:27,950 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 
+2022-09-01 23:33:27,950 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:33:27,951 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:33:27,951 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:33:55,768 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:33:55,771 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:33:55,772 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:33:55,772 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:33:55,774 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:33:55,775 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:33:55,776 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:33:55,776 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:33:55,776 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:33:55,777 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:33:55,778 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:33:55,778 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:33:55,778 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:33:55,779 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 100051 
+2022-09-01 23:33:55,779 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 100051 
+2022-09-01 23:33:55,779 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 100051 
+2022-09-01 23:33:55,779 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 100051 
+2022-09-01 23:33:55,780 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 100051 
+2022-09-01 23:33:55,780 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:33:55,780 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:33:55,781 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:34:09,663 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:34:09,666 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:34:09,666 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:34:09,667 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:34:09,669 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:34:09,670 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:34:09,670 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:34:09,670 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:34:09,671 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:34:09,672 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:34:09,672 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:34:09,672 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:34:09,673 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:34:09,673 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 100051 
+2022-09-01 23:34:09,673 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 100051 
+2022-09-01 23:34:09,673 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 100051 
+2022-09-01 23:34:09,674 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 100051 
+2022-09-01 23:34:09,674 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 100051 
+2022-09-01 23:34:09,674 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:34:09,675 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:34:09,675 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:34:51,865 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:34:51,869 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:34:51,869 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:34:51,869 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:34:51,872 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:34:51,873 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:34:51,874 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:34:51,874 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:34:51,874 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:34:51,875 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:34:51,876 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:34:51,876 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:34:51,876 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:34:51,877 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:34:51,877 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:34:51,877 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:34:51,877 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:34:51,877 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 
+2022-09-01 23:34:51,878 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:34:51,878 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:34:51,879 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:35:03,622 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:35:03,625 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:35:03,626 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:35:03,626 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:35:03,628 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:35:03,629 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:35:03,629 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:35:03,630 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:35:03,630 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:35:03,631 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:35:03,631 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:35:03,632 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:35:03,632 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:35:03,632 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:35:03,632 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:35:03,633 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:35:03,633 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:35:03,633 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 
+2022-09-01 23:35:03,633 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:35:03,634 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:35:03,634 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:35:17,045 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:35:17,049 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:35:17,049 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:35:17,049 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:35:17,051 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:35:17,052 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:35:17,053 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:35:17,053 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:35:17,053 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:35:17,054 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:35:17,055 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:35:17,055 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:35:17,055 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:35:17,056 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10000 
+2022-09-01 23:35:17,056 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10000 
+2022-09-01 23:35:17,056 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10000 
+2022-09-01 23:35:17,056 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10000 
+2022-09-01 23:35:17,056 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10000 
+2022-09-01 23:35:17,057 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:35:17,057 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:35:17,057 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:36:17,040 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:36:17,044 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:36:17,044 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:36:17,044 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:36:17,046 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:36:17,047 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:36:17,048 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:36:17,048 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:36:17,048 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:36:17,049 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:36:17,050 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:36:17,050 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:36:17,050 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:36:17,051 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10111 
+2022-09-01 23:36:17,051 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10111 
+2022-09-01 23:36:17,052 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10111 
+2022-09-01 23:36:17,052 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10111 
+2022-09-01 23:36:17,052 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10111 
+2022-09-01 23:36:17,053 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:36:17,054 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:36:17,055 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:37:11,135 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Class (costo) -> 20000 
+2022-09-01 23:37:11,139 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Supplier Lambda (costo) -> 15000 
+2022-09-01 23:37:11,139 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Supplier (costo) -> 350000 
+2022-09-01 23:37:11,139 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:37:11,141 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:37:11,142 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Class valor -> true 
+2022-09-01 23:37:11,142 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Predicate Lambda valor -> true 
+2022-09-01 23:37:11,143 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Predicate valor -> false 
+2022-09-01 23:37:11,143 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:37:11,144 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Class precio -> 250000 
+2022-09-01 23:37:11,145 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Function Lambda precio final -> 150000 
+2022-09-01 23:37:11,145 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Function new value -> 230000 valor in 2023 
+2022-09-01 23:37:11,146 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:37:11,146 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:37:11,147 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:37:11,147 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:37:11,147 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:37:11,147 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 
+2022-09-01 23:37:11,147 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Class -> Nuevo Modelo Lamborghini AX 2023 
+2022-09-01 23:37:11,148 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Unary Operator Lambda -> Lamborghini SWX 
+2022-09-01 23:37:11,148 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - HO Unary Operator -> $540000 Lamborghini X 
+2022-09-01 23:42:22,742 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Supplier 
+2022-09-01 23:42:22,748 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Consumer 
+2022-09-01 23:42:22,749 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Predicate 
+2022-09-01 23:42:22,749 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - JAVA Function 
+2022-09-01 23:42:22,750 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Lamborghini $ 10005 
+2022-09-01 23:42:22,750 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Ferrari $ 10005 
+2022-09-01 23:42:22,750 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> BMW Generacion X $ 10005 
+2022-09-01 23:42:22,750 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> Porsche $ 10005 
+2022-09-01 23:42:22,750 [main] INFO  c.u.e.d.s.f.a.MenuInterfazFuncional                - Mi auto -> MClaren $ 10005 

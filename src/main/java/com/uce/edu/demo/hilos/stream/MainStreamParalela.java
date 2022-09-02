@@ -33,6 +33,12 @@ public class MainStreamParalela {
 	private static String convertirIdAlumno(Integer id) {
 		try {
 			TimeUnit.MILLISECONDS.sleep(10);
+			//Logicas de Negocio
+			//sumas 1 ms
+			//restas, etc 4 ms
+			//insert 2 ms
+			//consultas 1ms
+			//8 ms
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
